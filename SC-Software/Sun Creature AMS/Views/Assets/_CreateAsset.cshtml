@@ -1,0 +1,20 @@
+﻿@model Sun_Creature_AMS.ViewModels.NewAssetViewModel
+
+@using (Html.BeginForm("Create", "Assets"))
+{
+    <td class="form-group">
+        @Html.DropDownListFor(m => m.Asset.Details.AssetType, new SelectList(Model.AssetDetails, "Id", "Type"), "Select Asset Type", new { @class = "form-control" })
+    </td>
+    <td class="form-group">
+        @Html.TextBoxFor(m => m.Asset.Quantity, "", new { @class = "form-control" })
+    </td>
+    <td class="checkbox">
+        <label>
+            @Html.CheckBoxFor(m => m.Asset.Available)
+        </label>
+    </td>
+
+    <td>
+        <button type="submit" class="btn btn-primary">Add</button>
+    </td>
+}

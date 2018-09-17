@@ -1,0 +1,35 @@
+﻿@using Sun_Creature_AMS.ViewModels
+
+@model AssetsViewModel
+@{
+    ViewBag.Title = "Assets";
+}
+
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#ID</th>
+                <th scope="col">Asset Type</th>
+                <th scope="col">Asset Description</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var asset in Model.Assets)
+            {
+                <tr>
+                    <th scope="row">@asset.Id</th>
+                    <td>@asset.Details.AssetDetail</td>
+                    <td>@asset.Details.AssetType.Type</td>
+                    <td>@asset.Quantity</td>
+                    <td>@Html.CheckBoxFor(m => asset.Available, new { @disabled = "disabled" })</td>
+                </tr>
+            }
+            <tr>
+                <th scope="row">@(Model.Assets.Count() + 1)</th>
+                @Html.Partial("_CreateAsset", Model.NewAssetViewModel);
+            </tr>
+        </tbody>
+    </table>

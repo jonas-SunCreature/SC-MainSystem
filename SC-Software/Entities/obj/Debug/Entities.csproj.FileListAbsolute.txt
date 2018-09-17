@@ -1,0 +1,12 @@
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\Entities.dll.config
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\Entities.dll
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\Entities.pdb
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\EntityFramework.dll
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\EntityFramework.xml
+F:\Programming\Sun Creature Software\SC-Software\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\Programming\Sun Creature Software\SC-Software\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+F:\Programming\Sun Creature Software\SC-Software\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+F:\Programming\Sun Creature Software\SC-Software\Entities\obj\Debug\Entities.csproj.CopyComplete
+F:\Programming\Sun Creature Software\SC-Software\Entities\obj\Debug\Entities.dll
+F:\Programming\Sun Creature Software\SC-Software\Entities\obj\Debug\Entities.pdb
